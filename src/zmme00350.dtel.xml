@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMME00350</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZMMD00350</DOMNAME>
+    <HEADLEN>29</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>07</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>지급조건 세부 / Payment Term Detail</DDTEXT>
+    <REPTEXT>지급조건 세부 / Payment Term Detail</REPTEXT>
+    <SCRTEXT_S>지급조건</SCRTEXT_S>
+    <SCRTEXT_M>지급조건 세부</SCRTEXT_M>
+    <SCRTEXT_L>지급조건 세부 / Pay Term</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMME00190</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZMMD00190</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>06</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>라이프사이클 상태 / Lifecycle Status</DDTEXT>
+    <REPTEXT>자재 라이프사이클 상태 / Material Lifecycle Status</REPTEXT>
+    <SCRTEXT_S>라이프상태</SCRTEXT_S>
+    <SCRTEXT_M>라이프사이클</SCRTEXT_M>
+    <SCRTEXT_L>라이프사이클 / Lifecycle</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

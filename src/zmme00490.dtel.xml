@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMME00490</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZMMD00490</DOMNAME>
+    <HEADLEN>26</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>07</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>저장구역 유형 / Bin Type</DDTEXT>
+    <REPTEXT>저장구역 유형 / Storage Bin Type</REPTEXT>
+    <SCRTEXT_S>저장유형</SCRTEXT_S>
+    <SCRTEXT_M>저장구역 유형</SCRTEXT_M>
+    <SCRTEXT_L>저장구역 유형 / Bin Type</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

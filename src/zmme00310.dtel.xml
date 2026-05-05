@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMME00310</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZMMD00310</DOMNAME>
+    <HEADLEN>37</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>08</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>PO 유형 사유 / PO Type Reason</DDTEXT>
+    <REPTEXT>PO 유형 사유 / Purchase Order Type Reason</REPTEXT>
+    <SCRTEXT_S>PO사유</SCRTEXT_S>
+    <SCRTEXT_M>PO 유형 사유</SCRTEXT_M>
+    <SCRTEXT_L>PO 유형 사유 / PO Reason</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

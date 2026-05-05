@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMME00330</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZMMD00330</DOMNAME>
+    <HEADLEN>34</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>06</SCRLEN2>
+    <SCRLEN3>17</SCRLEN3>
+    <DDTEXT>납기 스케줄 유형 / Delivery Schedule Type</DDTEXT>
+    <REPTEXT>납기 스케줄 유형 / Delivery Schedule Type</REPTEXT>
+    <SCRTEXT_S>납기유형</SCRTEXT_S>
+    <SCRTEXT_M>납기 스케줄</SCRTEXT_M>
+    <SCRTEXT_L>납기 스케줄 / Sch Type</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

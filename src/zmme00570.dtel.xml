@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMME00570</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZMMD00570</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>02</SCRLEN1>
+    <SCRLEN2>05</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>상차 도크 / Loading Dock</DDTEXT>
+    <REPTEXT>상차 도크 / Loading Dock</REPTEXT>
+    <SCRTEXT_S>도크</SCRTEXT_S>
+    <SCRTEXT_M>상차 도크</SCRTEXT_M>
+    <SCRTEXT_L>상차 도크 / Loading Dock</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

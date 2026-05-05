@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMME00030</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZMMD00030</DOMNAME>
+    <HEADLEN>34</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>07</SCRLEN2>
+    <SCRLEN3>21</SCRLEN3>
+    <DDTEXT>고객 자재번호 / Customer Material Number</DDTEXT>
+    <REPTEXT>고객 자재번호 / Customer Material Number</REPTEXT>
+    <SCRTEXT_S>고객자재번</SCRTEXT_S>
+    <SCRTEXT_M>고객 자재번호</SCRTEXT_M>
+    <SCRTEXT_L>고객 자재번호 / Cust Mat No</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

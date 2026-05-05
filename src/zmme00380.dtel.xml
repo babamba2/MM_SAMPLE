@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMME00380</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZMMD00380</DOMNAME>
+    <HEADLEN>32</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>05</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>반품 사유 / Rejection Reason</DDTEXT>
+    <REPTEXT>반품 사유 코드 / Rejection Reason Code</REPTEXT>
+    <SCRTEXT_S>반품사유</SCRTEXT_S>
+    <SCRTEXT_M>반품 사유</SCRTEXT_M>
+    <SCRTEXT_L>반품 사유 / Reject Rsn</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

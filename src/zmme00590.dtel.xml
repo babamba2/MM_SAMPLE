@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMME00590</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZMMD00590</DOMNAME>
+    <HEADLEN>33</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>07</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>배송 우선순위 / Delivery Priority</DDTEXT>
+    <REPTEXT>배송 우선순위 / Delivery Priority (1-5)</REPTEXT>
+    <SCRTEXT_S>우선순위</SCRTEXT_S>
+    <SCRTEXT_M>배송 우선순위</SCRTEXT_M>
+    <SCRTEXT_L>배송 우선순위 / Priority</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

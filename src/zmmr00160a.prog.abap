@@ -1,0 +1,85 @@
+*&---------------------------------------------------------------------*
+*& Include ZMMR00160A — ALV field catalog and layout
+*&---------------------------------------------------------------------*
+
+*----------------------------------------------------------------------
+* convert_fcat_data_grid — SALV factory → LVC_T_FCAT conversion
+*----------------------------------------------------------------------
+FORM convert_fcat_data_grid USING    pt_table    TYPE STANDARD TABLE
+                             CHANGING pt_fieldcat TYPE lvc_t_fcat.
+  DATA lo_table TYPE REF TO data.
+  CREATE DATA lo_table LIKE pt_table.
+  ASSIGN lo_table->* TO FIELD-SYMBOL(<fo_table>).
+  TRY.
+      cl_salv_table=>factory(
+        IMPORTING r_salv_table = DATA(lo_salv)
+        CHANGING  t_table      = <fo_table> ).
+      pt_fieldcat = cl_salv_controller_metadata=>get_lvc_fieldcatalog(
+        r_columns      = lo_salv->get_columns( )
+        r_aggregations = lo_salv->get_aggregations( ) ).
+    CATCH cx_root.
+  ENDTRY.
+ENDFORM.
+
+*----------------------------------------------------------------------
+* modify_fcat_data_grid1_0100 — adjust field catalog attributes
+*----------------------------------------------------------------------
+FORM modify_fcat_data_grid1_0100 CHANGING pt_fieldcat TYPE lvc_t_fcat.
+  FIELD-SYMBOLS <fs_fc> TYPE lvc_s_fcat.
+  LOOP AT pt_fieldcat ASSIGNING <fs_fc>.
+    CASE <fs_fc>-fieldname.
+      WHEN 'EBELN'.
+        <fs_fc>-coltext    = text-f01.
+        <fs_fc>-outputlen  = 10.
+      WHEN 'EBELP'.
+        <fs_fc>-coltext    = text-f02.
+        <fs_fc>-outputlen  = 5.
+      WHEN 'STAGE_SEQ'.
+        <fs_fc>-coltext    = text-f03.
+        <fs_fc>-outputlen  = 5.
+      WHEN 'STAGE_NAME'.
+        <fs_fc>-coltext    = text-f04.
+        <fs_fc>-outputlen  = 20.
+      WHEN 'STAGE_QTY'.
+        <fs_fc>-coltext    = text-f05.
+        <fs_fc>-do_sum     = abap_true.
+        <fs_fc>-qfieldname = 'MEINS'.
+      WHEN 'STAGE_PROGRESS_PCT'.
+        <fs_fc>-coltext    = text-f06.
+        <fs_fc>-outputlen  = 8.
+      WHEN 'ISSUED_QTY'.
+        <fs_fc>-coltext    = text-f07.
+        <fs_fc>-do_sum     = abap_true.
+        <fs_fc>-qfieldname = 'MEINS'.
+      WHEN 'RETURNED_QTY'.
+        <fs_fc>-coltext    = text-f08.
+        <fs_fc>-do_sum     = abap_true.
+        <fs_fc>-qfieldname = 'MEINS'.
+      WHEN 'REMAINING_QTY'.
+        <fs_fc>-coltext    = text-f09.
+        <fs_fc>-do_sum     = abap_true.
+        <fs_fc>-qfieldname = 'MEINS'.
+      WHEN 'MEINS'.
+        <fs_fc>-coltext    = text-f10.
+        <fs_fc>-outputlen  = 6.
+      WHEN 'LIFNR'.
+        <fs_fc>-coltext    = text-f11.
+        <fs_fc>-outputlen  = 10.
+      WHEN 'NAME1'.
+        <fs_fc>-coltext    = text-f12.
+        <fs_fc>-outputlen  = 30.
+      WHEN 'LAST_UPDATE'.
+        <fs_fc>-coltext    = text-f13.
+        <fs_fc>-outputlen  = 20.
+    ENDCASE.
+  ENDLOOP.
+ENDFORM.
+
+*----------------------------------------------------------------------
+* build_layout_0100 — ALV layout settings
+*----------------------------------------------------------------------
+FORM build_layout_0100 CHANGING ps_layout TYPE lvc_s_layo.
+  ps_layout-zebra      = abap_true.
+  ps_layout-cwidth_opt = abap_true.
+  ps_layout-info_fname = space.
+ENDFORM.

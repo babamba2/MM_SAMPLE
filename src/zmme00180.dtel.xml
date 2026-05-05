@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMME00180</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZMMD00180</DOMNAME>
+    <HEADLEN>44</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>05</SCRLEN2>
+    <SCRLEN3>22</SCRLEN3>
+    <DDTEXT>치수 타입 / Dimension Type</DDTEXT>
+    <REPTEXT>치수 단위 타입 / Dimension Unit Type (MM/CM/IN/FT)</REPTEXT>
+    <SCRTEXT_S>치수타입</SCRTEXT_S>
+    <SCRTEXT_M>치수 타입</SCRTEXT_M>
+    <SCRTEXT_L>치수 타입 / Dimension Type</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

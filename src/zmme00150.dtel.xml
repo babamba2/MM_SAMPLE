@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMME00150</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZMMD00150</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>06</SCRLEN2>
+    <SCRLEN3>19</SCRLEN3>
+    <DDTEXT>위험물 등급 / Hazard Class</DDTEXT>
+    <REPTEXT>위험물 등급 / Hazard Class (UN ADR)</REPTEXT>
+    <SCRTEXT_S>위험등급</SCRTEXT_S>
+    <SCRTEXT_M>위험물 등급</SCRTEXT_M>
+    <SCRTEXT_L>위험물 등급 / Hazard Cls</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

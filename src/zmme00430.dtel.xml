@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMME00430</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZMMD00430</DOMNAME>
+    <HEADLEN>38</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>09</SCRLEN2>
+    <SCRLEN3>19</SCRLEN3>
+    <DDTEXT>인증서 검증 상태 / Certification Verification Status</DDTEXT>
+    <REPTEXT>인증서 검증 상태 / Certification Verification</REPTEXT>
+    <SCRTEXT_S>인증검증</SCRTEXT_S>
+    <SCRTEXT_M>인증서 검증 상태</SCRTEXT_M>
+    <SCRTEXT_L>인증서 검증 / Cert Verif</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

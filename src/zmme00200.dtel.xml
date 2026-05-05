@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMME00200</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZMMD00200</DOMNAME>
+    <HEADLEN>31</HEADLEN>
+    <SCRLEN1>03</SCRLEN1>
+    <SCRLEN2>03</SCRLEN2>
+    <SCRLEN3>19</SCRLEN3>
+    <DDTEXT>도입일 / Phase-In Date</DDTEXT>
+    <REPTEXT>자재 도입일 / Material Phase-In Date</REPTEXT>
+    <SCRTEXT_S>도입일</SCRTEXT_S>
+    <SCRTEXT_M>도입일</SCRTEXT_M>
+    <SCRTEXT_L>도입일 / Phase-In Date</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

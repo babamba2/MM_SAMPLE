@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMME00280</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZMMD00280</DOMNAME>
+    <HEADLEN>35</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>05</SCRLEN2>
+    <SCRLEN3>23</SCRLEN3>
+    <DDTEXT>승인 상태 / Approval Status</DDTEXT>
+    <REPTEXT>승인 상태 / Approval Status (N/P/A/R/X)</REPTEXT>
+    <SCRTEXT_S>승인상태</SCRTEXT_S>
+    <SCRTEXT_M>승인 상태</SCRTEXT_M>
+    <SCRTEXT_L>승인 상태 / Approval Status</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>
